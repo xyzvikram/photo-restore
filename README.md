@@ -20,7 +20,7 @@ Use freely for learning or demos. If you publish a public site, consider attribu
 
 
 ## 📸 Screenshot
-![Calculator Screenshot](screenshot.png)
+![photo-restore Screenshot](screenshot.png)
 
 ---
 
