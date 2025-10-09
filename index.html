@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Photo Restore — Simple Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Photo Restore</h1>
+      <p class="subtitle">Upload a photo and simulate quick restoration — simple frontend clone</p>
+    </header>
+
+    <section class="uploader" id="dropZone">
+      <input type="file" id="fileInput" accept="image/*" />
+      <div class="drop-inner">
+        <p>Drag & drop an image here, or <label for="fileInput" class="browse">browse</label></p>
+        <small>JPEG/PNG recommended</small>
+      </div>
+    </section>
+
+    <section class="preview-area" id="previewArea" hidden>
+      <div class="preview-card">
+        <canvas id="canvas"></canvas>
+        <div class="controls">
+          <button id="restoreBtn">Restore</button>
+          <button id="downloadBtn" disabled>Download</button>
+          <button id="resetBtn" class="secondary">Reset</button>
+        </div>
+        <div id="progress" class="progress" hidden>
+          <div class="bar" id="progressBar"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <small>Simple frontend clone • No images are uploaded to any server — everything runs in your browser.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
