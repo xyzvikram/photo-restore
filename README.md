@@ -27,4 +27,4 @@ Use freely for learning or demos. If you publish a public site, consider attribu
 ## 🌐 Live Demo
 [👉 Click here to use the photo-restore](https://xyzvikram.github.io/photo-restore/)
 
----
+--
