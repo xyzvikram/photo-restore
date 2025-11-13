@@ -28,3 +28,13 @@ Use freely for learning or demos. If you publish a public site, consider attribu
 [👉 Click here to use the photo-restore](https://xyzvikram.github.io/photo-restore/)
 
 ---
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
